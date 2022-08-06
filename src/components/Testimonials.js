@@ -3,7 +3,7 @@ import '../css/testimonials.css';
 
 function Testimonials() {
     return (
-        <div className='testimonials'>
+        <div className='testimonials' id='testimonials'>
 
         </div>
     )

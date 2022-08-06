@@ -3,8 +3,8 @@ import '../css/intro.css';
 
 function Intro() {
     return (
-        <div className='intro'>
-            dfgchvjbk
+        <div className='intro' id='intro'>
+            intro
         </div>
     )
 }

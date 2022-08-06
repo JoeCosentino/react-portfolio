@@ -3,7 +3,7 @@ import '../css/works.css';
 
 function Works() {
     return (
-        <div className='works'>
+        <div className='works' id='works'>
 
         </div>
     )
