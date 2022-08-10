@@ -1,12 +1,12 @@
 import React from 'react';
 import PersonIcon from '@mui/icons-material/Person';
 import MailIcon from '@mui/icons-material/Mail';
-import '../css/navBar.css';
+import '../scss/navBar.scss';
 
 function NavBar({ menuOpen, setMenuOpen }) {
 
     return (
-        <div className={'navBar ' + (menuOpen && 'navBar-active')}>
+        <div className={'navBar ' + (menuOpen && 'active')}>
             <div className='nav-wrapper'>
                 <div className='left'>
                     <a href='#intro' className='logo'>genius.</a>
@@ -20,10 +20,10 @@ function NavBar({ menuOpen, setMenuOpen }) {
                     </div>
                 </div>
                 <div className='right'>
-                    <div className={'hamburger ' + (menuOpen && 'hamburger-active')}>
-                        <span className={'line1 ' + (menuOpen && 'line1-active')}></span>
-                        <span className={'line2 ' + (menuOpen && 'line2-active')}></span>
-                        <span className={'line3 ' + (menuOpen && 'line3-active')}></span>
+                    <div className='hamburger' onClick={()=>setMenuOpen(!menuOpen)}>
+                        <span className='line1'></span>
+                        <span className='line2'></span>
+                        <span className='line3'></span>
                     </div>
                 </div>
             </div>

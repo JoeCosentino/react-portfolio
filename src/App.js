@@ -4,12 +4,12 @@ import Portfolio from './components/Portfolio';
 import Works from './components/Works';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
-import './css/app.css';
+import './scss/app.scss';
 import { useState } from 'react';
 
 function App() {
 
-  const [menuOpen, setMenuOpen] = useState(true)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <div className="app">
