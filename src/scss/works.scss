@@ -3,4 +3,100 @@
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .arrow {
+        position: absolute;
+        color: white;
+        cursor: pointer;
+        
+        &.left {
+            left: 100px;
+        }
+
+        &.right {
+            right: 100px;
+        }
+    }
+
+    .slider {
+        height: 350px;
+        display: flex;
+        position: absolute;
+        left: 0;
+
+        .container {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item {
+                width: 700px;
+                height: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .left {
+                    flex: 4;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .leftContainer {
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .imgContainer {
+                            width: 60px;
+                            // height: 40px;
+                            border-radius: 50%;
+                            // background-color: lightcoral;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+
+                            .phone-img {
+                                left: 0;
+                                width: 40px;
+                            }
+                        }
+
+                        h2 {
+                            font-size: 20px;
+                        }
+
+                        p {
+                            font-size: 13px;
+                        }
+
+                        span {
+                            font-size: 12px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .right {
+                    flex: 8;
+                    height: inherit;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
 }
