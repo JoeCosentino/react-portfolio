@@ -5,6 +5,12 @@
     scroll-snap-align: start;
     display: flex;
 
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .left {
         flex: 0.5;
         overflow: hidden;
@@ -13,14 +19,18 @@
             height: 700px;
             width: 700px;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            align-items: flex-start;
+            justify-content: flex-start;
             float: right;
 
             img {
                 width: 80%;
                 border-radius: 50%;
                 // height: 100%;
+
+                @media screen and (max-width: 768px) {
+                    height: 45%;
+                }
             }
         }
     }
