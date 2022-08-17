@@ -12,9 +12,9 @@ function MenuItems({ setMenuOpen }) {
             <li>
                 <a href='#works'>Works</a>
             </li>
-            <li>
+            {/* <li>
                 <a href='#testimonials'>Testimonials</a>
-            </li>
+            </li> */}
             <li>
                 <a href='#contact'>Contact</a>
             </li>
