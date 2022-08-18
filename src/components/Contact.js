@@ -13,9 +13,7 @@ function Contact() {
     return (
         <div className='contact' id='contact'>
             <div className='left'>
-                <div className='imageWrapper'>
-                    <img src='assets/contact-us.jpeg' alt='' />
-                </div>
+                <img src='assets/old-style-phone.jpg' alt='' />
             </div>
             <div className='right'>
                 <h2>Contact.</h2>

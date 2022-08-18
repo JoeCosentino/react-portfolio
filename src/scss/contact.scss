@@ -5,9 +5,10 @@
     scroll-snap-align: start;
     display: flex;
 
-    // @media screen and (max-width: 664px) {
-    //     height: calc(100vh - 90px);        
-    // }
+    @media screen and (max-width: 880px) {
+        flex-wrap: wrap;   
+        flex-direction: column;   
+    }
 
     .left {
         flex: 1;
@@ -16,13 +17,25 @@
         align-items: center;
         justify-content: center;
 
-        .imageWrapper {
-            // height: 100%;
-            // object-fit: cover;
+        // @media screen and (max-width: 880px) {
+        //     flex: none;      
+        // }
 
-            .img {
-                height: 100%;
-                object-fit: cover;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 20px;
+            opacity: 0.8;
+            box-shadow: 1px 1px rgb(169, 162, 162);
+            padding-left: 10px;
+
+            @media screen and (max-width: 880px) {
+                width: 60%;
+            }
+
+            @media screen and (max-width: 560px) {
+                width: 70%;
             }
         }
     }
@@ -34,8 +47,15 @@
         align-items: center;
         justify-content: center;
 
+        // @media screen and (max-width: 880px) {
+        //     flex: none;      
+        // }
+
         h2 {
             font-size: 30px;
+            @media screen and (max-width: 880px) {
+                margin-bottom: 15px;
+            }
         }
 
         form {
@@ -46,16 +66,28 @@
             align-items: center;
             justify-content: space-around;
 
+            @media screen and (max-width: 880px) {
+                width: 100%;
+            }
+
             input {
                 width: 300px;
                 height: 30px;
                 font-size: 14px;
+
+                @media screen and (max-width: 880px) {
+                    margin-bottom: 15px;
+                }
             }
 
             textarea {
                 width: 300px;
                 height: 200px;
                 font-size: 14px;
+
+                @media screen and (max-width: 880px) {
+                    margin-bottom: 15px;
+                }
             }
 
             button {
