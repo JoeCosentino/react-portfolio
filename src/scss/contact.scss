@@ -5,6 +5,10 @@
     scroll-snap-align: start;
     display: flex;
 
+    // @media screen and (max-width: 664px) {
+    //     height: calc(100vh - 90px);        
+    // }
+
     .left {
         flex: 1;
         overflow: hidden;

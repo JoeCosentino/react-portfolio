@@ -12,6 +12,10 @@
         align-items: center;
     }
 
+    // @media screen and (max-width: 664px) {
+    //     height: calc(100vh - 90px);        
+    // }
+
     .left {
         flex: 0.5;
         overflow: hidden;
@@ -59,6 +63,10 @@
             display: flex;
             justify-content: center;
 
+            @media screen and (max-width: 550px) {
+                padding: 0 10px;
+            }
+
             h1 {
                 font-size: 60px;
                 margin: 10px 0;
@@ -96,6 +104,11 @@
             position: absolute;
             bottom: 100px;
             left: 20%;
+
+            @media screen and (max-width: 1048px) {
+                bottom: 50px;
+                left: 40%;
+            }
 
             .down-arrow {
                 color: black;
