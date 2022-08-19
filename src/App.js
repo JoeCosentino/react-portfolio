@@ -6,9 +6,13 @@ import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import Works from './components/Works';
 import './scss/app.scss';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Joe's Portfolio"
+  })
 
   const [menuOpen, setMenuOpen] = useState(false)
 

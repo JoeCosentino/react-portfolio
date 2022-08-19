@@ -2,61 +2,60 @@ import React, { useEffect, useState } from 'react';
 import '../scss/portfolio.scss';
 import PortfolioList from './PortfolioList';
 import {
-    featuredPortfolio,
-    webPortfolio,
-    mobilePortfolio,
-    designPortfolio,
-    contentPortfolio    
+    reactPortfolio,
+    databasePortfolio,
+    fullStackPortfolio,
+    teamPortfolio,
+    javaScriptPortfolio    
 } from '../data';
 
 function Portfolio() {
 
-    const [selected, setSelected] = useState('featured')
+    const [selected, setSelected] = useState('react')
     const [data, setData] = useState([])
 
     const list = [
         {
-            id: 'featured',
-            title: 'Featured'
+            id: 'react',
+            title: 'React'
         },
         {
-            id: 'web',
-            title: 'Web App'
+            id: 'database',
+            title: 'Database'
         },
         {
-            id: 'mobile',
-            title: 'Mobile App'
+            id: 'fullstack',
+            title: 'Full Stack'
         },
         {
-            id: 'design',
-            title: 'Design'
+            id: 'team',
+            title: 'Team Projects'
         },
         {
-            id: 'content',
-            title: 'Content'
+            id: 'javascript',
+            title: 'JavaScript'
         }
-
     ]
 
     useEffect(() => {
         switch(selected) {
-            case 'featured':
-                setData(featuredPortfolio);
+            case 'react':
+                setData(reactPortfolio);
                 break;
-            case 'web':
-                setData(webPortfolio);
+            case 'database':
+                setData(databasePortfolio);
                 break;
-            case 'mobile':
-                setData(mobilePortfolio);
+            case 'fullstack':
+                setData(fullStackPortfolio);
                 break;
-            case 'design':
-                setData(designPortfolio);
+            case 'team':
+                setData(teamPortfolio);
                 break;
-            case 'content':
-                setData(contentPortfolio);
+            case 'javascript':
+                setData(javaScriptPortfolio);
                 break;
             default:
-                setData(featuredPortfolio);
+                setData(reactPortfolio);
         }
     })
 
