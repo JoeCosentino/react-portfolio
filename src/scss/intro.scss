@@ -5,6 +5,7 @@
     scroll-snap-align: start;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 
     @media screen and (max-width: 1073px) {
         flex-direction: column;
