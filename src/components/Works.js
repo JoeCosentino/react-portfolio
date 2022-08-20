@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import '../scss/works.scss';
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import StorageIcon from '@mui/icons-material/Storage';
+import SchoolIcon from '@mui/icons-material/School';
+import ComputerIcon from '@mui/icons-material/Computer';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
@@ -11,30 +13,30 @@ function Works() {
     const data = [
         {
           id: "1",
-          icon: <PhoneIphoneIcon className='phone-img' sx={{ fontSize: 90 }}/>,
+          icon: <ComputerIcon className='icon-img' sx={{ fontSize: 90 }}/>,
           title: "Web Design",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+            "utilize front-end technologies to create intuitive user experiences ",
           img:
-            "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+            "https://t3.ftcdn.net/jpg/02/98/11/76/240_F_298117627_neaI5EvfL3VGOPHKevRhUkTK1i7l9man.jpg"
         },
         {
           id: "2",
-          icon: "./assets/globe.png",
-          title: "Mobile Application",
+          icon:  <StorageIcon className='icon-img' sx={{ fontSize: 90 }}/>,
+          title: "Data Driven",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Ability to work with data and back-end technologies to excel the production of application",
           img:
-            "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+            "https://as1.ftcdn.net/v2/jpg/00/94/35/34/1000_F_94353427_D7W5w2QybxknMcnGvn0tY8x3lxSxa81d.jpg",
         },
         {
           id: "3",
-          icon: "./assets/writing.png",
-          title: "Branding",
+          icon: <SchoolIcon className='icon-img' sx={{ fontSize: 90 }}/>,
+          title: "Continuous Learning",
           desc:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "Ability and desire to learn cutting edge technologies, as required",
           img:
-            "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+            "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&w=800",
         },
       ];
 
@@ -56,15 +58,14 @@ function Works() {
                                 <div className='imgContainer'>
                                     {d.icon}
                                 </div>
-                                <h2>{d.title}</h2>
-                                <p>
+                                <h2 className='title'>{d.title}</h2>
+                                <p className='desc'>
                                     {d.desc}
                                 </p>
-                                <span>Projects</span>
                             </div>
                         </div>
                         <div className='right'>
-                            <img src="https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900" alt='' />
+                            <img src={d.img} />
                         </div>
                     </div>
                 </div>
