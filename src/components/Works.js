@@ -27,7 +27,7 @@ function Works() {
           desc:
             "Ability to work with data and back-end technologies to excel the production of application",
           img:
-            "https://as1.ftcdn.net/v2/jpg/00/94/35/34/1000_F_94353427_D7W5w2QybxknMcnGvn0tY8x3lxSxa81d.jpg",
+            "https://t3.ftcdn.net/jpg/03/02/85/42/240_F_302854234_QUk8B2FygqXRFoNfHbFNtxMMzpxIPgrg.jpg",
         },
         {
           id: "3",
@@ -36,7 +36,7 @@ function Works() {
           desc:
             "Ability and desire to learn cutting edge technologies, as required",
           img:
-            "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "https://t4.ftcdn.net/jpg/03/40/07/85/240_F_340078556_YD52qpLaiTbO5E0OF90FuOaAq3sZr8yF.jpg",
         },
       ];
 
@@ -65,7 +65,9 @@ function Works() {
                             </div>
                         </div>
                         <div className='right'>
+                          <div className='imgContainer'>
                             <img src={d.img} />
+                          </div>
                         </div>
                     </div>
                 </div>
