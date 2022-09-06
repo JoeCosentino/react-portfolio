@@ -1,10 +1,10 @@
-export const reactPortfolio = [
+export const frontEndPortfolio = [
     {
       id: 1,
-      link: 'https://frozen-oasis-34307.herokuapp.com/',
-      title: "Cineflex",
+      link: 'https://joecosentino.github.io/coding-quiz/',
+      title: "Coding Quiz",
       img:
-        "https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg?cs=srgb&dl=pexels-pixabay-33129.jpg&fm=jpg",
+        "https://images.pexels.com/photos/2675061/pexels-photo-2675061.jpeg?auto=compress&cs=tinysrgb&w=800",
     },
     {
       id: 2,
@@ -12,10 +12,24 @@ export const reactPortfolio = [
       title: "Cooking With React",
       img:
         "https://images.pexels.com/photos/255501/pexels-photo-255501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    },
+    {
+      id: 3,
+      link: 'https://joecosentino.github.io/Friendly-Parakeet-Password-Challenge/',
+      title: "Random Password Generator",
+      img:
+        "https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    },
+    {
+      id: 2,
+      link: "https://codeproject11.github.io/Get-There/",
+      title: "Get There",
+      img:
+        "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     }
 ];
   
-export const databasePortfolio = [
+export const backEndPortfolio = [
     {
       id: 1,
       link: '"https://drive.google.com/file/d/1jc6bCUusaE7nDz4HcRqKdWgYjPCmjdhY/view"',
@@ -33,13 +47,6 @@ export const databasePortfolio = [
       link: 'https://drive.google.com/file/d/1F2hTyTEtsZQc0QiDI1s_5fBKjf3gIxcI/view',
       title: "Penny For Your Thoughts, Pt. 2",
       img: "https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=800"
-    },
-    {
-      id: 4,
-      link: "https://mvc-petters-social.herokuapp.com/",
-      title: "Petters",
-      img:
-        "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     }
 ];
   
@@ -57,46 +64,12 @@ export const fullStackPortfolio = [
       title: "Cineflex",
       img:
         "https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg?cs=srgb&dl=pexels-pixabay-33129.jpg&fm=jpg",
-    }
-];
-  
-  export const teamPortfolio = [
+    },
     {
-      id: 1,
+      id: 3,
       link: "https://mvc-petters-social.herokuapp.com/",
       title: "Petters",
       img:
         "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
-    {
-      id: 2,
-      link: "https://codeproject11.github.io/Get-There/",
-      title: "Get There",
-      img:
-        "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    },
-    {
-      id: 3,
-      link: 'https://frozen-oasis-34307.herokuapp.com/',
-      title: "Cineflex",
-      img:
-        "https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg?cs=srgb&dl=pexels-pixabay-33129.jpg&fm=jpg",
-    }
-];
-  
-  export const javaScriptPortfolio = [
-    {
-      id: 1,
-      link: 'https://joecosentino.github.io/Friendly-Parakeet-Password-Challenge/',
-      title: "Random Password Generator",
-      img:
-        "https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    },
-    {
-      id: 2,
-      link: 'https://joecosentino.github.io/coding-quiz/',
-      title: "Coding Quiz",
-      img:
-        "https://images.pexels.com/photos/2675061/pexels-photo-2675061.jpeg?auto=compress&cs=tinysrgb&w=800",
-    }
 ];
