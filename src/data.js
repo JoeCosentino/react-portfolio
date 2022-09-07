@@ -21,11 +21,24 @@ export const frontEndPortfolio = [
         "https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
-      id: 2,
+      id: 4,
       link: "https://codeproject11.github.io/Get-There/",
       title: "Get There",
       img:
         "https://images.pexels.com/photos/3225528/pexels-photo-3225528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    },
+    {
+      id: 5,
+      link: "https://pristine-dry-tortugas-06174.herokuapp.com/",
+      title: "Where My Money At",
+      img:
+        "https://images.pexels.com/photos/47344/dollar-currency-money-us-dollar-47344.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      id: 6,
+      link: "https://drive.google.com/file/d/19azA9pA6nU-Vgxytu98BxYtUma2pA2io/view",
+      title: "Team Profile Generator",
+      img: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800"
     }
 ];
   
@@ -47,6 +60,18 @@ export const backEndPortfolio = [
       link: 'https://drive.google.com/file/d/1F2hTyTEtsZQc0QiDI1s_5fBKjf3gIxcI/view',
       title: "Penny For Your Thoughts, Pt. 2",
       img: "https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      id: 4,
+      link: 'https://drive.google.com/file/d/1bVCwo5cwitPxttSFRna-gj25DDEcD0r9/view',
+      title: "Internet Retail Therapy, Pt. 1",
+      img: "https://images.pexels.com/photos/264502/pexels-photo-264502.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      id: 5,
+      link: 'https://drive.google.com/file/d/1aEDBs8YxHpMZ18Dt6SRKQ37dOQOfWqbT/view',
+      title: "Internet Retail Therapy, Pt. 2",
+      img: "https://images.pexels.com/photos/264502/pexels-photo-264502.jpeg?auto=compress&cs=tinysrgb&w=800"
     }
 ];
   
