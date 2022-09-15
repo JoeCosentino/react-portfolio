@@ -59,10 +59,14 @@ function Portfolio() {
             <div className='container'>
                 {data.map(d=> (
                     <div className='item'>
-                        <a href={d.link}>
-                            <img src={d.img} alt='' />
-                        </a>
+                        <img src={d.img} alt='' />
                         <h3>{d.title}</h3>
+                        <a href={d.gitHubLink}>
+                            <div className='gitHubLink'>Github</div>
+                        </a>
+                        <a href={d.deployedLink}>
+                            <div className='deployedLink'>Deployed</div>
+                        </a>
                     </div>
                 ))}
             </div>
