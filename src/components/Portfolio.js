@@ -62,7 +62,7 @@ function Portfolio() {
                         <img src={d.img} alt='' />
                         <h3>{d.title}</h3>
                         <a href={d.gitHubLink}>
-                            <div className='gitHubLink'>Github</div>
+                            <div className='gitHubLink'>GitHub</div>
                         </a>
                         <a href={d.deployedLink}>
                             <div className='deployedLink'>Deployed</div>
