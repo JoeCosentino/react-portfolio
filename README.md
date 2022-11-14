@@ -1,4 +1,4 @@
-# Team Profile Generator
+# Web Dev Portfolio
 
 This is a README file for the my web development portfolio
 
