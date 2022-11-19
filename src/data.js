@@ -45,6 +45,13 @@ export const frontEndPortfolio = [
       deployedLink: "https://drive.google.com/file/d/19azA9pA6nU-Vgxytu98BxYtUma2pA2io/view",
       title: "Team Profile Generator",
       img: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      id: 7,
+      gitHubLink: 'https://github.com/JoeCosentino/JavaClock',
+      deployedLink: "https://joecosentino.github.io/JavaClock/",
+      title: "JavaClock",
+      img: "https://images.pexels.com/photos/191703/pexels-photo-191703.jpeg?auto=compress&cs=tinysrgb&w=800"
     }
 ];
   
