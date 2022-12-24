@@ -10,7 +10,7 @@ function NavBar({ menuOpen, setMenuOpen }) {
         <div className={'navBar ' + (menuOpen && 'active')}>
             <div className='nav-wrapper'>
                 <div className='left'>
-                    <a href='#intro' className='logo'>genius.</a>
+                    <a href='#intro' className='logo'>Web Dev</a>
                     <div className='itemContainer'>
                         <PersonIcon className='icon' />
                         <span>647-919-5824</span>
