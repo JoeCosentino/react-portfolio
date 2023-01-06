@@ -21,8 +21,6 @@ This is a README file for the my web development portfolio
 
 * Giuseppe (Joe) Cosentino
     - main developer on project
-* Lama Dev
-    - Utilized concepts explained by Lama Dev (YouTube channel) to create this portfolio
 * Stack Overflow
     - Utilized Stack Overflow to solve various issues that arose
 
